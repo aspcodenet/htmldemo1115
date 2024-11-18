@@ -7,14 +7,109 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- <form action="https://formshow.systementor.se/" method="post">  
+        <div class="form-group">  
+            <label>Range:</label>  
+            <input type="range" name="range" class="custom-range"/>  
+            <button class="btn-primary rounded-0">Submit</button>     
+        </div>  
+    </form>     -->
+
+    <form action="https://formshow.systementor.se/" method="POST" >
+
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+          <option value="SE">Sverige</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select>
+        
+
+        <input type="radio" name="color" id="red" value="röd">
+        <label for="red">Red</label>
+        <input type="radio" name="color" id="green" value="grän">
+        <label for="green">Green</label>
+        <input type="radio" name="color" id="blue" value="blå">
+        <label for="blue">Blue</label>
+        
+        
+        
+        <!-- Checkbox knapp! -->
+        <input type="checkbox" name="ok" id="ok">
+        <label for="ok">Ok</label>
+    
+     
+ 
+ 
+        <label for="fname">First name:</label><br>
+        First name:<br>
+        <input type="text" id="fname" name="fname" placeholder="Enter a name" size="30"><br>
+        <label for="ml">Message:</label><br>
+        <!-- First name:<br> -->
+        <textarea id="ml" name="ml" cols="100" rows="5"></textarea>
+        <br>
+        
+        <!-- Last name:<br> -->
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br> 
+        <input type="submit" value="Submit">
+      </form>
+
+
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quas consectetur, eveniet, enim veritatis unde fuga excepturi obcaecati minima expedita saepe sint! Similique, nulla inventore, aliquam veritatis officiis voluptates officia quaerat obcaecati adipisci labore ex. Doloremque neque corporis asperiores, praesentium porro voluptate non, reiciendis quo quibusdam ducimus consectetur a hic error ipsa minus rerum modi voluptatem id explicabo, ab odit repellendus facere corrupti suscipit. Enim omnis nobis ipsa blanditiis sequi labore nemo in, numquam, optio aliquam nulla, alias eum minus vel adipisci. Dicta distinctio suscipit quidem cumque fuga. Fugit voluptate voluptatum incidunt dicta optio ut soluta eos, facilis rerum sed!</p>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Namn</th>
+                <th>Telefon</th>
+                <th>Edit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Foppa</td>
+                <td>08-1111111</td>
+                <td><a href="">Edit</a></td>
+            </tr>
+            <tr>
+                <td>Mats Sundin</td>
+                <td>08-11111432432</td>
+                <td><a href="">Edit</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <ul>
+        <li>The Rock</li>
+        <li>John Cena</li>
+        <li>Arnold Schwarzenegger</li>
+    </ul>
+
+
+
+
+    <a href="#lunchId">Se lunchinfo</a>
+    <a target="_blank" href="https://hockeysnack.com">
+        <h1>HH</h1>   
+        <img  width="400px"   src="images/IMG20241112141220.jpg" alt="Bild från Nackademin">
+    
+    </a>
     <h1>Stefan2</h1>
-    <p>Hej vad kul det är <br /><br /><br /><br /> att bygga en webbsida</p>
+    <img  width="400px"   src="images/IMG20241112141220.jpg" alt="Bild från Nackademin">
+    <p>Hej vad kul det är <br ><br ><br ><br > att bygga en webbsida</p>
 
     <p>&copy Stefan</p>
-    <h2>Lunch</h2>
+    <h2 id="lunchId">Lunch</h2>
+    <img width="100px" height="100px" src="https://systementor.se/img/trainers/0.webp" alt="En bild på stefan">
     <p>Lunch till 12:30</p>
     <pre>
         
-    </pre>
+    </pre> -->
 </body>
 </html>
