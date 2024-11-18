@@ -19,8 +19,10 @@
     <form action="https://formshow.systementor.se/" method="POST" >
 
         <label for="cars">Choose a car:</label>
-        <select name="cars" id="cars">
-          <option value="SE">Sverige</option>
+        <select name="cars" id="cars" required>
+          
+            <option value="">Välj en av</option>
+            <option value="SE">Sverige</option>
           <option value="saab">Saab</option>
           <option value="mercedes">Mercedes</option>
           <option value="audi">Audi</option>
